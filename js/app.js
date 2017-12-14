@@ -54,3 +54,15 @@ $('#boton-number').click(function(){
   document.getElementById("numero-id").innerHTML = code;
 });
 /*FUNCION PARA GENERAR NUMERO ALEATOREO FIN*/
+
+
+/*FUNCION DE BOTON CODE*/
+$('#id-code').keyup(function () {
+  var numero = $('#id-code').val();
+  if (numero.length == 3){
+    $('.btn-code').removeAttr('disabled');
+} else if (numero.length < 3) {
+    $('.btn-code').attr('disabled');
+  }
+});
+/*FUNCION DE BOTON NUMBER CODE*/

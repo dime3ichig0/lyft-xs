@@ -484,3 +484,12 @@ height: 100vh;
     width: 30%;
 
 }
+
+
+
+.imagen-final img{
+    width: 412px;
+    height: 100vh;
+    margin-left: -15px;
+    background-size: 100%;
+}
