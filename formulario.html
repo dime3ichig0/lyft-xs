@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title> S I N G - U P </title>
+ 	<link rel="stylesheet" href="css/main.css">
+ 	<script src="https://use.fontawesome.com/eb4aade2bb.js"></script>
+ 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ 	<!-- Latest compiled and minified CSS -->
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 	<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<body>
+	
+
+ 	 	<!-- MODAL-NUMBER-->
+<div class="modal fade" id="modal-codigo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="myModalLabel">Tu codigo Lab</h4>
+        <p id="numero-id"></p>
+      </div>
+      <div class="modal-footer"><a href="verificar-numero.html">ok</a>
+       </div>
+    </div>
+  </div>
+</div>
+       <!-- MODAL-NUMBER FINAL -->	
+
+	<!-- TERCER HTML PAISES -->
+	<div class="container sing-up">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="text-1">
+					<h1>Sing Up</h1>
+					<h3>Join now for free ride credit</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container paises">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="selected-item">
+					<p> Selecciona un Pais : <span>Empty</span></p>
+				</div>
+				<div class="dropdown">
+					<span class="selLabel">Paises</span>
+					<input type="hidden" name="cd-dropdown">
+					<ul class="dropdown-list">
+						<li data-value="1">
+							<span> <img class="pais" src="assets/images/Paises/chile.png"  alt="">Chile</span>
+						</li>
+						<li data-value="2">
+							<span> <img class="pais" src="assets/images/Paises/mexico.jpg" alt="">Mexico</span>
+						</li>
+						<li data-value="3">
+							<span> <img class="pais" src="assets/images/Paises/peru.png" alt="">Perú</span>
+						</li>
+						<li data-value="4">
+							<span> <img class="pais" src="assets/images/Paises/argentina.png" alt="">Argentina</span>
+						</li>
+					</ul>
+					<input class="input-number" type="text" maxlength="10"> <!-- maxlenght/maximo de caracteres -->
+						<button id= "boton-number" data-toggle="modal" data-target="#modal-codigo" disabled>Next</button>
+				</div>
+			</div> 
+		</div>
+	</div>
+	<!-- TERCER HTML PAISES FINAL-->
+
+
+
+
+  <script src="js/app.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+</body>
+</html>
